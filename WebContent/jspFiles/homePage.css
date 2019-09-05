@@ -1,0 +1,88 @@
+@charset "UTF-8";
+html,body{
+				margin: 0px;
+			}
+			 .navbar{
+			 	height:90px;
+			 	width:100%;
+			 }
+			 .homeContainer{
+			 	display:flex;
+			 	flex-wrap: nowrap;
+			 	min-height: 100%;
+    			height: 100%;
+			 	width:100%;
+			 	flex-direction:column;
+			 	padding-right:0px;
+			 	padding-left: 0px;
+			 	margin:0;	
+			 }
+			 .input-group{
+			 	width:80%;
+			 	top:40%;
+			 	left:10%;
+			 }
+			 #buttonSearch{
+			 	display:inline-block;
+			 	color:red;
+			 }
+			 #search-id{
+			 	display:inline-block;
+			 }
+			 .form{
+			 	/*background-image: url("usc.jpg");*/
+			 	height:800px;
+			 	background-color: #F0F0F0;
+			 	background-repeat:no-repeat;
+			 	background-image: linear-gradient(0deg,white, red);
+			 }
+			 #logoImg{
+			 	position: absolute;
+			 	top:13%;
+			 	left:38%;
+			 	opacity: 3;
+			 }
+			 .header{
+			 	background-color: #cc0000;
+			 	height:80px;
+				font-family: 'Dosis', sans-serif;
+			 	font-size: 40px;
+			 	text-decoration:none;
+			 }
+			 .logo{
+			 	padding-left: 20px;
+			 	padding-right: 10px;
+			 	
+			 }
+			 .loginLink{
+			 	position: absolute;
+			 	right:12%;
+			 }
+			 .regLink{
+			 	position: absolute;
+			 	right:2%;
+			 }
+			 a{
+			 	color:white;
+			 }
+			 #termList.form-control{
+			 	width: 10px; 
+
+			 }
+			 #radioButton{
+			 	position: absolute;
+			 	top:48%;
+			 	left:10%;
+			 }
+			 #teacherName{
+			 	padding:none; 
+			 	padding-left:1px;
+			 }
+			 #text{
+			 	font-size: 1px;
+			 }
+			 #submitButton{
+			 	top:47%;
+			 	position:absolute;
+			 	right:49%;
+			 }

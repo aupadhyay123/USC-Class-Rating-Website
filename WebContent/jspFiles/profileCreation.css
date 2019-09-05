@@ -1,0 +1,152 @@
+@charset "UTF-8";
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    /*Chrome default margin is 8px*/
+    margin: 0px;
+    background-color: black;
+    height: 100vh;
+}
+.heading {
+    background: #cc0000;
+    color: white;
+    padding: 30px;
+    margin-bottom: -20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    padding-left: 50px;
+    
+}
+.logOutLink {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    position: fixed;
+    top: 3.5%;
+    left: 90%;
+}
+.credentialContainer {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    height: 78%;
+    width: 37%;
+    background-image: linear-gradient(0deg, red, black);
+    border-radius: 15px;
+}
+.accountPic {
+    position: fixed;
+    top: 14%;
+    left: 44%;
+}
+.credentialName {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 38%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+    
+}
+.uDescription {
+    position: fixed;
+    top: 27%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.credentialEmail {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 51%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.eDescription {
+    position: fixed;
+    top: 40%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.credentialUniversity {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 63%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.univDescription {
+    position: fixed;
+    top: 53%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.enterMajor {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 76%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.majorDescription {
+    position: fixed;
+    top: 66%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+#errorMessage {
+    position: fixed;
+    top: 78.5%;
+    left: 33%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+.submitButton {
+    background-color: #FFC72C;
+    opacity: 0.5;
+    opacity: 0.9;
+    position: fixed;
+    top: 90%;
+    left: 44%;
+    height: 6%;
+    width: 10%;
+    border-radius: 200px;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+#particles-js{ 
+    position:absolute; 
+    width: 100%;
+    height: 100%; 
+    background-color: #000000; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+ }

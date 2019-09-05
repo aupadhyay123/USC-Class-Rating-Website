@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@charset "UTF-8";
+@charset "UTF-8";
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    /*Chrome default margin is 8px*/
+    margin: 0px;
+    background-color: #F0F0F0;
+}
+.heading {
+    background: #cc0000;
+    color: white;
+    padding: 30px;
+    margin-bottom: -20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    padding-left: 50px;
+    
+}
+.loginLink {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    position: fixed;
+    top: 3.5%;
+    left: 90%;
+}
+.registerContainer {
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    height: 70%;
+    width: 37%;
+    background-image: linear-gradient(0deg, red, black);
+    border-radius: 15px;
+}
+.accountPic {
+    position: fixed;
+    top: 16%;
+    left: 44%;
+}
+.registerUsername {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 41%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+    
+}
+.uDescription {
+    position: fixed;
+    top: 30%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.registerPassword {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 54%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.pDescription {
+    position: fixed;
+    top: 44%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.confirmPass {
+    width: 31%;
+    height: 5%;
+    position: fixed;
+    left: 33%;
+    top: 68%;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    padding-left: 10px;
+}
+.confirmDescription {
+    position: fixed;
+    top: 58%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+#errorMessage{
+    position: absolute;
+    top: 72.5%;
+    left: 33%;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+.registerButton {
+    background-color: #FFC72C;
+    opacity: 0.5;
+    opacity: 0.9;
+    position: fixed;
+    top: 82%;
+    left: 44%;
+    height: 6%;
+    width: 10%;
+    border-radius: 200px;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+#particles-js{ 
+    position:absolute; 
+    width: 100%;
+    height: 100%; 
+    background-color: #000000; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+ }

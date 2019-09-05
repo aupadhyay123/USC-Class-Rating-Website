@@ -1,0 +1,181 @@
+@charset "UTF-8";
+            body{ 
+                margin:0;
+                font:normal 75% Arial, Helvetica, sans-serif; 
+                padding:0; 
+                height:100vh;
+                background-color:#000000;
+            } 
+            canvas{ 
+                display: block; 
+                vertical-align: bottom; 
+            } 
+            html,body{
+                margin: 0px;
+            }
+             .navbar{
+                height:90px;
+                width:100%;
+             }
+             .homeContainer{
+                display:flex;
+                flex-wrap: nowrap;
+                min-height: 100%;
+                height: 100%;
+                width:100%;
+                flex-direction:column;
+                padding-right:0px;
+                padding-left: 0px;
+                margin:0;   
+             }
+             .input-group{
+                width:80%;
+                top:40%;
+                left:10%;
+             }
+             #buttonSearch{
+                display:inline-block;
+                color:red;
+             }
+             #search-id{
+                display:inline-block;
+             }
+             .profile{
+                height:800px;
+/*              background-color: #d4cccd;
+ */             background-repeat:no-repeat;
+                background-image: linear-gradient(0deg,pink, red);
+                flex-direction:column;
+                display:flex;
+             }
+             #logoImg{
+                position: absolute;
+                top:13%;
+                left:38%;
+             }
+             .header{
+                background-color: #cc0000;
+                height:80px;
+                font-family: 'Dosis', sans-serif;
+                font-size: 40px;
+                text-decoration:none;
+             }
+             .logo{
+                padding-left: 20px;
+                padding-right: 10px;
+                
+             }
+            
+             a{
+                color:white;
+             }
+             .searchBar{
+                padding-top: 15px;
+                width:900px;
+             }
+             .profileStuff{
+                width:90%;
+                height:90%;
+                margin: auto;
+/*              border: 2px solid black;
+ */             font-family: 'Quicksand', sans-serif;
+             }
+             .name{
+                color:white;
+                text-align:center;
+             }
+             .friends{
+                width: 40%;
+                padding-top: 43px;
+                float:right;
+/*              border: 2px solid black;
+ */             margin-right:15px;
+                font-family: 'Quicksand', sans-serif;
+                height: 90%;
+    
+                
+             }
+             .profileData{
+                width:40%;
+                float: left;
+                padding-top:30px;
+/*              border: 2px solid black;
+ */             margin-left:15px;
+                font-family: 'Quicksand', sans-serif;
+                margin-top:15px;
+                height: 95%;
+             }
+             table{
+                border: 2px solid black;
+                margin-bottom: 10px;
+                font-family: 'Quicksand', sans-serif;
+                width:100px;
+                
+             }
+             .reviewTable{
+                background-color:#F4DBDB;
+             }
+             .friendsTable{
+                background-color:#F4DBDB;
+                
+             }
+             th,td{
+                font-size:30px;
+                padding-left:30px;
+                border:1px solid black;
+             }
+             tr{
+                width:80px;
+             }
+             .class{
+                padding-top: 40px;
+             }
+             .logOut{
+                position:absolute;
+                right:1%;
+             }
+             
+             .profileRedirect {
+                position: absolute;
+                right: 10%;
+             }
+             .friendBtn{
+                position:absolute;
+                right:19%;
+                top:2%;
+                background-color:black;
+                color:white;
+                font-size:10px;
+             }
+             .badge {
+                  position: absolute;
+                  top: -10px;
+                  right: -10px;
+                  padding: 5px 10px;
+                  border-radius: 50%;
+                  background-color:white;
+                  color: white;
+            }
+            
+            #displayPending {
+                display: none;
+                position: absolute;
+                top: 10%;
+                left: 65%;
+                height: 33%;
+                width: 32%;
+                background-color: #ffcccc;
+                z-index: 2;
+                border: solid 2px black;
+                
+            }
+            
+            .displayText {
+                color: white;
+                font-size: 20px;
+            }
+            
+            .acceptFriend {
+                margin-left: 20px;
+                
+            }
